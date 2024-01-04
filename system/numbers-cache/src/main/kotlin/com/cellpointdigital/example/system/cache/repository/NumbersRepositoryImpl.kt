@@ -13,4 +13,6 @@ class NumbersRepositoryImpl : NumbersRepository {
     override fun add(number: Long) {
         numbers.add(number)
     }
+
+    override fun all(): Set<Long> = numbers
 }

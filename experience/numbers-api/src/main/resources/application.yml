@@ -9,4 +9,11 @@ temporal:
   frontend: localhost:7233
   namespace: default
 
+grpc:
+  channels:
+    cache-service:
+      address: localhost:8081
+      plaintext: true
+      max-retry-attempts: 10
+
 

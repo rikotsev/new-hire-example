@@ -10,8 +10,17 @@ option java_package = "com.cellpointdigital.example.protobuf.service";
 service NumbersCacheService {
   rpc GetPrime(model.IsPrimeRequest) returns (NumbersCacheResponse);
   rpc StorePrime(model.IsPrimeRequest) returns (NumbersCacheResponse);
+  rpc GetCachedValues(CachedValuesRequest) returns (CachedValuesResponse);
 }
 
 message NumbersCacheResponse {
   bool isCached = 1;
+}
+
+message CachedValuesRequest {
+  int32 size = 1;
+}
+
+message CachedValuesResponse {
+  repeated int64 values = 1;
 }

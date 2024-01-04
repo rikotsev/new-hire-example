@@ -4,109 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa7e66b8-e0bf-4d14-a14e-febe4c4df724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/protobuf.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/workflow-api.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/workflow-isprime.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/workflow-isprime.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/micronaut-cli.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/kotlin/com/cellpointdigital/example/numbers/api/isprime/IsPrimeController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/kotlin/com/cellpointdigital/example/numbers/api/temporal/TemporalConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/kotlin/com/cellpointdigital/example/numbers/api/temporal/TemporalService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/kotlin/com/cellpointdigital/example/numbers/api/temporal/TemporalServiceImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/src/test/kotlin/com/cellpointdigital/example/numbers/api/controllers/IsPrimeControllerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/protobuf/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/protobuf/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/protobuf/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/protobuf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/protobuf/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/protobuf/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/protobuf/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/protobuf/src/main/proto/example/protobuf/model/is_prime.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/protobuf/src/main/proto/example/protobuf/service/is_prime_calc.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/protobuf/src/main/proto/example/protobuf/service/numbers_cache.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-hire-example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/src/main/kotlin/com/cellpointdigital/example/process/activity/IsPrimeCalcActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/src/main/kotlin/com/cellpointdigital/example/process/activity/NumbersCacheActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/src/main/kotlin/com/cellpointdigital/example/process/config/Configurations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/src/main/kotlin/com/cellpointdigital/example/process/workflow/ExtendedDataConverter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-api/src/main/kotlin/com/cellpointdigital/example/process/workflow/IsPrimeWorkflow.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/src/main/kotlin/com/cellpointdigital/example/process/workflow/isprime/IsPrimeWorkflowImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/src/main/kotlin/com/cellpointdigital/example/process/workflow/isprime/Worker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/src/main/kotlin/com/cellpointdigital/example/process/workflow/isprime/test/MyWorkflow.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/src/main/kotlin/com/cellpointdigital/example/process/workflow/isprime/test/MyWorkflowImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/src/main/kotlin/com/cellpointdigital/example/process/workflow/isprime/test/Starter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/src/main/kotlin/com/cellpointdigital/example/process/workflow/isprime/test/Worker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process/workflow-isprime/src/test/kotlin/com/cellpointdigital/example/process/workflow/isprime/IsPrimeWorkflowImplTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/micronaut-cli.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/Application.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/ApplicationStartup.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/repository/NumbersRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/repository/NumbersRepositoryImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/service/CacheService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/temporal/CacheActivityImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/temporal/CacheActivityWorker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/numbers-cache/src/test/kotlin/numbers/cache/NumbersCacheTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/micronaut-cli.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/src/main/kotlin/com/cellpointdigital/example/system/prime/Application.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/src/main/kotlin/com/cellpointdigital/example/system/prime/ApplicationStartup.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/src/main/kotlin/com/cellpointdigital/example/system/prime/service/PrimeCalculatorService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/src/main/kotlin/com/cellpointdigital/example/system/prime/temporal/IsPrimeCalcActivityImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/src/main/kotlin/com/cellpointdigital/example/system/prime/temporal/IsPrimeCalcWorker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/prime-calculator/src/test/kotlin/prime/calculator/PrimeCalculatorTest.kt" afterDir="false" />
+    <list default="true" id="aa7e66b8-e0bf-4d14-a14e-febe4c4df724" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/docs/app-flow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/kotlin/com/cellpointdigital/example/numbers/api/BeanFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experience/numbers-api/src/main/kotlin/com/cellpointdigital/example/numbers/api/isprime/IsPrimeController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/kotlin/com/cellpointdigital/example/numbers/api/isprime/IsPrimeController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experience/numbers-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/protobuf/src/main/proto/example/protobuf/service/numbers_cache.proto" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/protobuf/src/main/proto/example/protobuf/service/numbers_cache.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/workflow-isprime/src/main/kotlin/com/cellpointdigital/example/process/workflow/isprime/IsPrimeWorkflowImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/process/workflow-isprime/src/main/kotlin/com/cellpointdigital/example/process/workflow/isprime/IsPrimeWorkflowImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/workflow-isprime/src/test/kotlin/com/cellpointdigital/example/process/workflow/isprime/IsPrimeWorkflowImplTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/process/workflow-isprime/src/test/kotlin/com/cellpointdigital/example/process/workflow/isprime/IsPrimeWorkflowImplTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/repository/NumbersRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/repository/NumbersRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/repository/NumbersRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/repository/NumbersRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/service/CacheService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/service/CacheService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,28 +86,6 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="workflow-isprime" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="workflow-isprime" type="f1a62948:ProjectNode" />
-                <item name="workflow-isprime" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="workflow-isprime" type="f1a62948:ProjectNode" />
-                <item name="workflow-isprime" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="workflow-isprime" type="f1a62948:ProjectNode" />
-                <item name="workflow-isprime" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -213,6 +101,7 @@
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -255,6 +144,8 @@
     "Gradle.protobuf [build].executor": "Run",
     "Gradle.protobuf [publishMavenPublicationToMavenLocal].executor": "Run",
     "Gradle.workflow-isprime [run].executor": "Run",
+    "HTTP Request.CACHED_PRIMES | #1.executor": "Run",
+    "HTTP Request.IS_PRIME | #1.executor": "Run",
     "HTTP Request.http-requests-log | #1.executor": "Run",
     "HTTP Request.http-requests-log | #2.executor": "Run",
     "HTTP Request.http-requests-log | #3.executor": "Run",
@@ -271,7 +162,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Workspace/projects/new-hire-example/system/prime-calculator/settings.gradle.kts",
+    "last_opened_file_path": "C:/Workspace/projects/new-hire-example/docs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -286,6 +177,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\projects\new-hire-example\docs" />
       <recent name="C:\Workspace\projects\new-hire-example\process\workflow-isprime" />
       <recent name="C:\Workspace\projects\new-hire-example\process\workflow-api" />
       <recent name="C:\Workspace\projects\new-hire-example\libraries\protobuf" />
@@ -303,7 +195,7 @@
       <recent name="com.cellpointdigital.example.numbers.api.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.http-requests-log | #3">
+  <component name="RunManager" selected="HTTP Request.IS_PRIME | #1">
     <configuration name="numbers-api [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -370,16 +262,16 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="http-requests-log | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="2" requestIdentifier="#2" runType="Run single request">
+    <configuration name="CACHED_PRIMES | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/CACHED_PRIMES.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="http-requests-log | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="3" requestIdentifier="#3" runType="Run single request">
+    <configuration name="IS_PRIME | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/IS_PRIME.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.http-requests-log | #3" />
-        <item itemvalue="HTTP Request.http-requests-log | #2" />
+        <item itemvalue="HTTP Request.IS_PRIME | #1" />
+        <item itemvalue="HTTP Request.CACHED_PRIMES | #1" />
         <item itemvalue="Gradle.numbers-api [run]" />
         <item itemvalue="Gradle.workflow-isprime [run]" />
         <item itemvalue="Gradle.prime-calculator [run]" />
@@ -406,11 +298,24 @@
       <workItem from="1704282785445" duration="6082000" />
       <workItem from="1704289965806" duration="9562000" />
       <workItem from="1704299678088" duration="459000" />
-      <workItem from="1704350456862" duration="22564000" />
+      <workItem from="1704350456862" duration="27585000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1704377781812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704377781812</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

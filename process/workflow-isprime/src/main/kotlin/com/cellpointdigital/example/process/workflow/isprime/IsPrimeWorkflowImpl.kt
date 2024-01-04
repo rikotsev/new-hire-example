@@ -19,15 +19,17 @@ class IsPrimeWorkflowImpl : IsPrimeWorkflow {
     private val cacheActivity: NumbersCacheActivity =
         Workflow.newActivityStub(NumbersCacheActivity::class.java,
             ActivityOptions {
-                setStartToCloseTimeout(Duration.ofSeconds(10))
+                setStartToCloseTimeout(Duration.ofSeconds(5))
+                setScheduleToCloseTimeout(Duration.ofSeconds(10))
                 setRetryOptions(RetryOptions { setMaximumAttempts(3) })
                 setTaskQueue(CACHE_ACTIVITY)
             })
     private val isPrimeCalcActivity: IsPrimeCalcActivity =
         Workflow.newActivityStub(IsPrimeCalcActivity::class.java,
             ActivityOptions {
-                setStartToCloseTimeout(Duration.ofSeconds(10))
+                setStartToCloseTimeout(Duration.ofSeconds(5))
                 setRetryOptions(RetryOptions { setMaximumAttempts(3) })
+                setScheduleToCloseTimeout(Duration.ofSeconds(10))
                 setTaskQueue(IS_PRIME_ACTIVITY)
             })
 

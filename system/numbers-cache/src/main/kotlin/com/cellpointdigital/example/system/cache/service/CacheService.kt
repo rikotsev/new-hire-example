@@ -1,6 +1,8 @@
 package com.cellpointdigital.example.system.cache.service
 
 import com.cellpointdigital.example.protobuf.model.IsPrimeRequest
+import com.cellpointdigital.example.protobuf.service.CachedValuesRequest
+import com.cellpointdigital.example.protobuf.service.CachedValuesResponse
 import com.cellpointdigital.example.protobuf.service.NumbersCacheResponse
 import com.cellpointdigital.example.protobuf.service.NumbersCacheServiceGrpcKt
 import com.cellpointdigital.example.system.cache.repository.NumbersRepository
@@ -21,5 +23,12 @@ open class CacheService(private val repository: NumbersRepository)
 
         return NumbersCacheResponse.newBuilder()
             .setIsCached(true).build()
+    }
+
+    override suspend fun getCachedValues(request: CachedValuesRequest): CachedValuesResponse {
+        val builder = CachedValuesResponse.newBuilder()
+        repository.all().forEach { number -> builder.addValues(number) }
+
+        return builder.build()
     }
 }
