@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package example.protobuf.service;
+
+import "example/protobuf/model/is_prime.proto";
+
+option java_multiple_files = true;
+option java_package = "com.cellpointdigital.example.protobuf.service";
+
+service IsPrimeCalcService {
+  rpc Get(model.IsPrimeRequest) returns (IsPrimeCalcResponse);
+}
+
+message IsPrimeCalcResponse {
+  bool isPrime = 1;
+  int32 time = 2;
+}

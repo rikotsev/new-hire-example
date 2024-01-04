@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package example.protobuf.model;
+
+option java_multiple_files = true;
+option java_package = "com.cellpointdigital.example.protobuf.model";
+
+message IsPrimeRequest {
+  int64 number = 1;
+}
+
+message IsPrimeResponse {
+  int64 number = 1;
+  bool isPrime = 2;
+  bool isCached = 3;
+  int32 time = 4;
+}

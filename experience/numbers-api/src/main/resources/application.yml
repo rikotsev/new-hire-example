@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: numbers-api
+  server:
+    cors:
+      enabled: true
+
+temporal:
+  frontend: localhost:7233
+  namespace: default
+
+

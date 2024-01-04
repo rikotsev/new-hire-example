@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/experience/numbers-api" />
+    <file type="web" url="file://$PROJECT_DIR$/libraries/protobuf" />
+    <file type="web" url="file://$PROJECT_DIR$/process/workflow-api" />
+    <file type="web" url="file://$PROJECT_DIR$/process/workflow-isprime" />
+    <file type="web" url="file://$PROJECT_DIR$/system/numbers-cache" />
+    <file type="web" url="file://$PROJECT_DIR$/system/prime-calculator" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="temurin-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

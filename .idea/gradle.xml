@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/libraries/protobuf" name="protobuf">
+                <projects>
+                  <project path="$PROJECT_DIR$/libraries/protobuf" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/process/workflow-api" name="workflow-api">
+                <projects>
+                  <project path="$PROJECT_DIR$/process/workflow-api" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/experience/numbers-api" />
+        <option name="gradleJvm" value="corretto-20" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/experience/numbers-api" />
+            <option value="$PROJECT_DIR$/libraries/protobuf" />
+            <option value="$PROJECT_DIR$/process/workflow-api" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/libraries/protobuf" />
+        <option name="gradleJvm" value="corretto-20" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/libraries/protobuf" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/libraries/protobuf" name="protobuf">
+                <projects>
+                  <project path="$PROJECT_DIR$/libraries/protobuf" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/process/workflow-api" />
+        <option name="gradleJvm" value="corretto-20" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/libraries/protobuf" />
+            <option value="$PROJECT_DIR$/process/workflow-api" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/libraries/protobuf" name="protobuf">
+                <projects>
+                  <project path="$PROJECT_DIR$/libraries/protobuf" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/process/workflow-api" name="workflow-api">
+                <projects>
+                  <project path="$PROJECT_DIR$/process/workflow-api" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/process/workflow-isprime" />
+        <option name="gradleJvm" value="corretto-20" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/libraries/protobuf" />
+            <option value="$PROJECT_DIR$/process/workflow-api" />
+            <option value="$PROJECT_DIR$/process/workflow-isprime" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/libraries/protobuf" name="protobuf">
+                <projects>
+                  <project path="$PROJECT_DIR$/libraries/protobuf" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/process/workflow-api" name="workflow-api">
+                <projects>
+                  <project path="$PROJECT_DIR$/process/workflow-api" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/system/numbers-cache" />
+        <option name="gradleJvm" value="corretto-20" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/libraries/protobuf" />
+            <option value="$PROJECT_DIR$/process/workflow-api" />
+            <option value="$PROJECT_DIR$/system/numbers-cache" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/libraries/protobuf" name="protobuf">
+                <projects>
+                  <project path="$PROJECT_DIR$/libraries/protobuf" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/process/workflow-api" name="workflow-api">
+                <projects>
+                  <project path="$PROJECT_DIR$/process/workflow-api" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/system/prime-calculator" />
+        <option name="gradleJvm" value="corretto-20" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/libraries/protobuf" />
+            <option value="$PROJECT_DIR$/process/workflow-api" />
+            <option value="$PROJECT_DIR$/system/prime-calculator" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
