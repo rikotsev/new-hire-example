@@ -4,19 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa7e66b8-e0bf-4d14-a14e-febe4c4df724" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/docs/app-flow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/kotlin/com/cellpointdigital/example/numbers/api/BeanFactory.kt" afterDir="false" />
+    <list default="true" id="aa7e66b8-e0bf-4d14-a14e-febe4c4df724" name="Changes" comment="Added a working front end single page application">
+      <change afterPath="$PROJECT_DIR$/docs/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/app/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/components/cached-primes/cached-primes.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/components/cached-primes/cached-primes.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/components/cached-primes/cached-primes.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/components/cached-primes/cached-primes.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/components/prime-checker/prime-checker.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/components/prime-checker/prime-checker.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/components/prime-checker/prime-checker.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/components/prime-checker/prime-checker.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/models/cachedPrimesResponse.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/models/numberRequest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/models/numberResponse.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/services/payment.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/services/payment.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/numbers-page/tsconfig.spec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experience/numbers-api/src/main/kotlin/com/cellpointdigital/example/numbers/api/isprime/IsPrimeController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/kotlin/com/cellpointdigital/example/numbers/api/isprime/IsPrimeController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experience/numbers-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/experience/numbers-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/protobuf/src/main/proto/example/protobuf/service/numbers_cache.proto" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/protobuf/src/main/proto/example/protobuf/service/numbers_cache.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/workflow-isprime/src/main/kotlin/com/cellpointdigital/example/process/workflow/isprime/IsPrimeWorkflowImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/process/workflow-isprime/src/main/kotlin/com/cellpointdigital/example/process/workflow/isprime/IsPrimeWorkflowImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/workflow-isprime/src/test/kotlin/com/cellpointdigital/example/process/workflow/isprime/IsPrimeWorkflowImplTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/process/workflow-isprime/src/test/kotlin/com/cellpointdigital/example/process/workflow/isprime/IsPrimeWorkflowImplTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/repository/NumbersRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/repository/NumbersRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/repository/NumbersRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/repository/NumbersRepositoryImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/service/CacheService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/system/numbers-cache/src/main/kotlin/com/cellpointdigital/example/system/cache/service/CacheService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,24 +95,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="numbers-api" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="numbers-api" type="f1a62948:ProjectNode" />
-                <item name="numbers-api" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="numbers-api" type="f1a62948:ProjectNode" />
-                <item name="numbers-api" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="numbers-api" type="f1a62948:ProjectNode" />
-                <item name="numbers-api" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -102,6 +111,7 @@
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="HTTP Request" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -172,6 +182,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "C:\\Workspace\\projects\\new-hire-example\\frontend\\numbers-page\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -195,11 +206,33 @@
       <recent name="com.cellpointdigital.example.numbers.api.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.IS_PRIME | #1">
+  <component name="RunManager" selected="Gradle.numbers-api [run]">
     <configuration name="numbers-api [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/experience/numbers-api" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="numbers-cache [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/system/numbers-cache" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -262,19 +295,16 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CACHED_PRIMES | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/CACHED_PRIMES.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="IS_PRIME | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/.idea/httpRequests/IS_PRIME.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.IS_PRIME | #1" />
-        <item itemvalue="HTTP Request.CACHED_PRIMES | #1" />
         <item itemvalue="Gradle.numbers-api [run]" />
         <item itemvalue="Gradle.workflow-isprime [run]" />
         <item itemvalue="Gradle.prime-calculator [run]" />
+        <item itemvalue="Gradle.numbers-cache [run]" />
+        <item itemvalue="HTTP Request.IS_PRIME | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +328,7 @@
       <workItem from="1704282785445" duration="6082000" />
       <workItem from="1704289965806" duration="9562000" />
       <workItem from="1704299678088" duration="459000" />
-      <workItem from="1704350456862" duration="27585000" />
+      <workItem from="1704350456862" duration="35882000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -308,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704377781812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added another endpoint and some basic documentation, gRPC call from the API to a system service also">
+      <option name="closed" value="true" />
+      <created>1704382683271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704382683271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +354,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added another endpoint and some basic documentation, gRPC call from the API to a system service also" />
+    <MESSAGE value="Added a working front end single page application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a working front end single page application" />
   </component>
 </project>

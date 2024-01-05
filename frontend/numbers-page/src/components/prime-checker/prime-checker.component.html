@@ -1,0 +1,10 @@
+<div>
+<p>Prime Checker:</p>
+<label for="inputNumber">Enter a number</label>
+  <input id="inputNumber" [(ngModel)]="userInput" type="number"/>
+  <button (click)="check()">Check</button>
+  <hr/>
+  <label>Number: {{outputNumber}}</label> <br/>
+  <label>Is prime: {{isPrime}}</label> <br/>
+  <label>Is cached: {{isCached}}</label> <br/>
+</div>

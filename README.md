@@ -27,4 +27,23 @@ Structure - follows the same as phalanx, but simplified
    - prime-calculator - activity and gRPC service for calculating if a number is prime
    
 ```
+---
+How to run locally the application:
+* Make sure to have temporal installed. It's a simple binary so you can just download it and add to path
+* Run temporal dev server
+```bash
+temporal server start-dev
+```
+* Start the applications
+  * numbers-cache
+  * prime-calculator
+  * workflow-isprime
+  * numbers-api
+* Start the front end
+```bash
+cd frontend/numbers-page
+ng serve
+```
 
+How it should look when running:
+![app](docs/img.png)
