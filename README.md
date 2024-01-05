@@ -45,5 +45,5 @@ cd frontend/numbers-page
 ng serve
 ```
 
-How it should look when running:
+How it should look when running: <br>
 ![app](docs/img.png)
